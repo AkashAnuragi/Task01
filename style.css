@@ -1,0 +1,41 @@
+*{
+    padding: 0 ;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    
+    max-width: 1200px;
+    margin: 7px  auto;
+    grid-template-columns: 1fr 1fr;
+    gap:6px;
+}
+
+.box{
+   display: flex;
+    background-color: rgb(37, 36, 36);
+    border-radius: 8px ;
+    height: 100px;
+    width: 550px;
+    color: white; 
+    transition: all .4s;
+    box-shadow: 2px 2px 5px #606060a9;
+    
+}
+
+
+.box:hover {
+    background-color: #383535b9;
+}
+
+.box img{
+    width: 100px;
+    border-radius: 8px;
+}
+
+.box h2{
+    align-self: center;
+    padding-left: 32px;
+}
